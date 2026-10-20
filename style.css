@@ -1,0 +1,25 @@
+h{color: red;
+background-color: gold;
+
+
+
+
+}
+p{color: blue;
+background-color: red;
+
+
+
+}
+img{
+    position: relative;
+border-radius: 50%;
+    animation:move 2s infinite alternate;}
+@keyframes move {
+to{
+    transform: translateY(100px) scale(2);
+}
+
+}
+
+
